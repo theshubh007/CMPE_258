@@ -20,8 +20,7 @@ Implementation of DeepSeek Janus for image generation and analysis, along with D
 * Interactive text conversations using DeepSeek R1
 
 ### Resources
-* [Colab Notebook](your-colab-link)
-* [Generated Images Gallery](your-gallery-link)
+* [Colab Notebook](https://colab.research.google.com/drive/1lUzuNgmuHIXSeUecNttxJ7u61jq7iJO5?usp=sharing)
 * [Reference Guide](https://www.datacamp.com/blog/janus-pro)
 
 ## 2. Bolt.DIY Full Stack Application
