@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light teal theme */
+body {
+  @apply bg-teal-bg text-gray-800 dark:bg-dark-bg dark:text-dark-text;
+}

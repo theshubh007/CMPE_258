@@ -34,9 +34,9 @@ A complete full-stack application built using Bolt.DIY, demonstrating modern web
 * Authentication system
 
 ### Resources
-* [Application Demo Video](your-demo-video-link)
+* [Youtube Demo Video](https://youtu.be/tuLG3wLnH2k)
 * [Source Code](your-source-code-link)
-* [Live Application](your-live-app-link)
+
 
 ## 3. Cursor Neural Network Implementation
 ### Description
@@ -49,9 +49,9 @@ MNIST classifier implementation using Keras, generated through Cursor IDE with c
 * Model evaluation tools
 
 ### Resources
-* [Implementation Video](your-video-link)
+* [Youtube Demo Video](https://youtu.be/Z1D0VhLHbu0)
 * [Jupyter Notebook](your-notebook-link)
-* [Results Documentation](your-docs-link)
+
 
 ## 4. Roo Code and Aider Application
 ### Description
