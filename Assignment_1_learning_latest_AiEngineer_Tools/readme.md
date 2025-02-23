@@ -27,7 +27,7 @@ Implementation of DeepSeek Janus for image generation and analysis, along with D
 
 - [Colab Notebook](https://colab.research.google.com/drive/1lUzuNgmuHIXSeUecNttxJ7u61jq7iJO5?usp=sharing)
 - [Reference Guide](https://www.datacamp.com/blog/janus-pro)
-- [Source Code](Assignment_1_learning_latest_AiEngineer_Tools/DeepSeek_Janus.ipynb)
+
 
 ## 2. Bolt.DIY Full Stack Application
 
@@ -45,7 +45,7 @@ A complete full-stack application built using Bolt.DIY, demonstrating modern web
 ### Resources
 
 - [Youtube Demo Video](https://youtu.be/tuLG3wLnH2k)
-- [Source Code](your-source-code-link)
+- [Source Code](https://github.com/theshubh007/CMPE_258/tree/main/Assignment_1_learning_latest_AiEngineer_Tools/Taskscheduler_For_Devs)
 
 ## 3. Cursor Neural Network Implementation
 
@@ -63,7 +63,7 @@ MNIST classifier implementation using Keras, generated through Cursor IDE with c
 ### Resources
 
 - [Youtube Demo Video](https://youtu.be/Z1D0VhLHbu0)
-- [Jupyter Notebook](your-notebook-link)
+- [Jupyter Notebook](https://github.com/theshubh007/CMPE_258/blob/main/Assignment_1_learning_latest_AiEngineer_Tools/MNIST_CLASSIFIER.IPYNB)
 
 ## 4. Roo Code and Aider Application
 
