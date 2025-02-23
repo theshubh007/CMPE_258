@@ -6,10 +6,10 @@ This repository contains the implementation and documentation of various AI engi
 
 ## Table of Contents
 
-1. [DeepSeek Janus Implementation](#deepseek-janus-implementation)
-2. [Bolt.DIY Full Stack Application](#boltdiy-full-stack-application)
-3. [Cursor Neural Network Implementation](#cursor-neural-network-implementation)
-4. [Roo Code and Aider Application](#roo-code-and-aider-application)
+1. DeepSeek Janus Implementation]
+2. Bolt.DIY Full Stack Application
+3. Cursor Neural Network Implementation
+4. Roo Code and Aider Application
 
 ## 1. DeepSeek Janus Implementation
 
