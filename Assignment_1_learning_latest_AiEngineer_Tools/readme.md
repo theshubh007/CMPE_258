@@ -80,6 +80,5 @@ A simple full-stack application developed using Roo Code and Aider, showcasing A
 
 ### Resources
 
-- [Source Code](your-source-link)
-- [Documentation](your-docs-link)
+- [YouTube Demo Link](https://github.com/theshubh007/CMPE_258/blob/main/Assignment_1_learning_latest_AiEngineer_Tools/readme.md)
 - [Tutorial Reference](https://aider.chat/docs/usage/tutorials.html)
