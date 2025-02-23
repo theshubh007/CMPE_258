@@ -1,10 +1,10 @@
-# Assignment 1 : AI Engineering Tools Learning Assignment
+# 🚀 Assignment 1 : AI Engineering Tools Learning Assignment
 
 ## Overview
 
 This repository contains the implementation and documentation of various AI engineering tools, showcasing practical applications and hands-on experience with cutting-edge technologies.
 
-## Table of Contents
+## 🎯 Table of Contents
 
 1. DeepSeek Janus Implementation]
 2. Bolt.DIY Full Stack Application
@@ -19,51 +19,46 @@ Implementation of DeepSeek Janus for image generation and analysis, along with D
 
 ### Features
 
-- Text-to-image generation with custom prompts
-- Image analysis and information extraction
-- Interactive text conversations using DeepSeek R1
-
-### Resources
-
-- [Colab Notebook](https://colab.research.google.com/drive/1lUzuNgmuHIXSeUecNttxJ7u61jq7iJO5?usp=sharing)
-- [Reference Guide](https://www.datacamp.com/blog/janus-pro)
+- 🎨 Text-to-image generation with custom prompts
+- 📊 Sophisticated image analysis engine
+- 💬 Interactive conversations powered by DeepSeek R1
 
 
-## 2. Bolt.DIY Full Stack Application
+**Resources:**
+- 📓 [Interactive Colab Notebook](https://colab.research.google.com/drive/1lUzuNgmuHIXSeUecNttxJ7u61jq7iJO5?usp=sharing)
+- 📚 [Comprehensive Guide](https://www.datacamp.com/blog/janus-pro)
 
-### Description
 
-A complete full-stack application built using Bolt.DIY, demonstrating modern web development practices.
 
-### Features
+### 2. Bolt.DIY Full Stack Application 🌐
 
-- Interactive user interface
-- Backend API implementation
-- Database integration
-- Authentication system
+A robust full-stack application showcasing modern web development practices and seamless integration.
 
-### Resources
+#### Key Features
+- 🎯 Intuitive user interface
+- 🔄 RESTful API implementation
+- 🔐 Secure authentication system
+- 📦 Efficient database integration
 
-- [Youtube Demo Video](https://youtu.be/tuLG3wLnH2k)
-- [Source Code](https://github.com/theshubh007/CMPE_258/tree/main/Assignment_1_learning_latest_AiEngineer_Tools/Taskscheduler_For_Devs)
+**Resources:**
+- 🎥 [Watch Demo](https://youtu.be/tuLG3wLnH2k)
+- 💻 [Explore Code](https://github.com/theshubh007/CMPE_258/tree/main/Assignment_1_learning_latest_AiEngineer_Tools/Taskscheduler_For_Devs)
 
-## 3. Cursor Neural Network Implementation
 
-### Description
+### 3. Cursor Neural Network Implementation 🧠
 
-MNIST classifier implementation using Keras, generated through Cursor IDE with comprehensive metrics.
+Experience machine learning in action with our MNIST classifier implementation using Keras and Cursor IDE.
 
-### Features
+#### Key Features
+- 🔧 Custom neural network architecture
+- 📈 Advanced training pipeline
+- 📊 Interactive performance visualization
+- 🎯 Comprehensive model evaluation
 
-- Neural network architecture design
-- Training pipeline implementation
-- Performance metrics visualization
-- Model evaluation tools
+**Resources:**
+- 🎥 [Video Walkthrough](https://youtu.be/Z1D0VhLHbu0)
+- 📓 [Detailed Notebook](https://github.com/theshubh007/CMPE_258/blob/main/Assignment_1_learning_latest_AiEngineer_Tools/MNIST_CLASSIFIER.IPYNB)
 
-### Resources
-
-- [Youtube Demo Video](https://youtu.be/Z1D0VhLHbu0)
-- [Jupyter Notebook](https://github.com/theshubh007/CMPE_258/blob/main/Assignment_1_learning_latest_AiEngineer_Tools/MNIST_CLASSIFIER.IPYNB)
 
 ## 4. Roo Code and Aider Application
 
@@ -71,14 +66,14 @@ MNIST classifier implementation using Keras, generated through Cursor IDE with c
 
 A simple full-stack application developed using Roo Code and Aider, showcasing AI-assisted development.
 
-### Features
+#### Key Features
+- 🎨 Modern frontend design
+- 🔄 Efficient API architecture
+- 📦 Seamless database integration
+- 📝 Detailed development documentation
 
-- Frontend implementation
-- Backend API development
-- Database integration
-- Development process documentation
 
 ### Resources
 
-- [YouTube Demo Link](https://github.com/theshubh007/CMPE_258/blob/main/Assignment_1_learning_latest_AiEngineer_Tools/readme.md)
-- [Tutorial Reference](https://aider.chat/docs/usage/tutorials.html)
+- 🎥 [Video Walkthrough](https://github.com/theshubh007/CMPE_258/blob/main/Assignment_1_learning_latest_AiEngineer_Tools/readme.md)
+- 📓 [Detailed Notebook](https://aider.chat/docs/usage/tutorials.html)
