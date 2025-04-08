@@ -27,9 +27,8 @@ Implementation of a deep learning model for binary classification, with comprehe
 * Detailed error analysis with misclassification examples
 
 ### Resources
-* [Colab Notebook](your-colab-link)
-* [Weights & Biases Dashboard](your-wandb-link)
-* [Model Architecture Diagram](your-diagram-link)
+* [Colab Notebook](https://colab.research.google.com/drive/1d1tjUGRWwyeTT_qpzZKtJt2eJ9yZS11C?usp=sharing)
+
 
 ## 2. Regression Model
 ### Description
@@ -50,9 +49,8 @@ Deep learning model implementation for regression analysis, showcasing predictiv
 * Error distribution analysis
 
 ### Resources
-* [Colab Notebook](your-colab-link)
-* [Weights & Biases Dashboard](your-wandb-link)
-* [Model Architecture Diagram](your-diagram-link)
+* [Colab Notebook](https://colab.research.google.com/drive/1UyKTz0iTcwKFz2wnNTYwwH0jjAbNurwk?usp=sharing)
+
 
 ## 3. Image Classification Model
 ### Description
@@ -73,9 +71,8 @@ Implementation of a convolutional neural network for image classification, with 
 * Class activation maps
 
 ### Resources
-* [Colab Notebook](your-colab-link)
-* [Weights & Biases Dashboard](your-wandb-link)
-* [Model Architecture Diagram](your-diagram-link)
+* [Colab Notebook](https://colab.research.google.com/drive/1n9esjQtHQ1tvbLyPO-lWflxrXYtFKFRw?usp=sharing)
+
 
 ## Video Walkthrough
 A comprehensive video walkthrough is provided, covering:
@@ -87,25 +84,14 @@ A comprehensive video walkthrough is provided, covering:
 
 ### Video Resources
 * [Complete Code Walkthrough](your-video-link)
-* [Presentation Slides](your-slides-link)
 
-## Setup and Installation
-```bash
-# Clone the repository
-git clone [your-repo-link]
 
-# Install required dependencies
-pip install -r requirements.txt
-
-# Set up Weights & Biases
-wandb login
-```
 
 ## Usage
 Each model can be accessed through its respective Colab notebook:
-1. Classification Model: [Colab Link]
-2. Regression Model: [Colab Link]
-3. Image Classification Model: [Colab Link]
+1. Classification Model: [https://colab.research.google.com/drive/1d1tjUGRWwyeTT_qpzZKtJt2eJ9yZS11C?usp=sharing]
+2. Regression Model: [https://colab.research.google.com/drive/1UyKTz0iTcwKFz2wnNTYwwH0jjAbNurwk?usp=sharing]
+3. Image Classification Model: [https://colab.research.google.com/drive/1n9esjQtHQ1tvbLyPO-lWflxrXYtFKFRw?usp=sharing]
 
 ## Dependencies
 * TensorFlow 2.x
