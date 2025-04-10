@@ -1,176 +1,74 @@
 # Neural Network Implementation Assignment
 
-## Overview
-This repository contains implementations of 3-layer neural networks for non-linear regression using various frameworks and approaches. The project demonstrates mastery of neural network fundamentals by implementing the same core functionality across NumPy, PyTorch, TensorFlow, and JAX, with varying levels of abstraction from scratch implementations to high-level APIs.
+
+## 🔍 Overview
+
+This repository contains detailed implementations of a 3-layer neural network for non-linear regression using multiple frameworks: **NumPy**, **PyTorch**, **TensorFlow**, and **JAX**. The purpose of this assignment is to gain deep understanding of neural network fundamentals and compare different levels of abstraction — from low-level, manual implementations to high-level declarative APIs.
+
+Each model is trained on synthetically generated data using a custom **3-variable non-linear equation**, and evaluated through training curves, prediction plots, and **4D visualizations**. A **video walkthrough** is included for each notebook, showing the code execution and explanation.
+
+---
+
+## 📂 Repository Structure
+
+| Framework   | Approach                      | Notebook Link | Description |
+|-------------|-------------------------------|----------------|-------------|
+| NumPy       | From Scratch                  | [Colab](https://colab.research.google.com/drive/1aI9k-Bsri5PP1c5QeDSEWicX0Bhb39HP?usp=sharing)     | Manual forward/backprop with chain rule |
+| PyTorch     | From Scratch (No nn.Module)   | [Colab](https://colab.research.google.com/drive/1DnP0aoITT7LV4FJydUIt_6JmNNS7kK5x?usp=sharing)     | Custom tensor ops, autograd only |
+| PyTorch     | With nn.Module                | [Colab](https://colab.research.google.com/drive/1RILlhezHF7-Xe3DizJ4kbOUeSmig4F6F?usp=sharing)     | Class-based model using PyTorch layers |
+| PyTorch     | With Lightning                | [Colab](https://colab.research.google.com/drive/1LzZqP6L0MsXBrW39tKTtECkgspVr624A?usp=sharing)     | PyTorch Lightning for cleaner code structure |
+| TensorFlow  | Low-Level (No Keras)          | [Colab](https://colab.research.google.com/drive/1EGIwvRmELeMmKhsXIkm2V7kHtrUa1KLI?usp=sharing)     | Manual tensor ops, `GradientTape`, `einsum` |
+| TensorFlow  | Built-in Layers               | [Colab](https://colab.research.google.com/drive/1bXE3XOtPcXDsvENTcg2g2WsS8EypDRJv?usp=sharing)     | Uses `tf.keras.layers`, custom training loop |
+| TensorFlow  | Functional API                | [Colab](https://colab.research.google.com/drive/1--9JJktC1pJvirrKnnZBvqKwfNNziLFR?usp=sharing)     | Functional style with Inputs/Outputs |
+| 4D Plot of Synthetic Data | High-Level Sequential API     | [Colab](https://colab.research.google.com/drive/1-17qdnhj5iisxePUJ2qrU7C5nf14ZsMt?usp=sharing)     | Cleanest and most abstracted form |
 
 
-## 1. NumPy Implementation
-### Description
-Implementation of a 3-layer neural network for non-linear regression using only NumPy, with manual backpropagation and gradient propagation.
+---
 
-### Features
-* Custom implementation of forward and backward passes
-* Manual gradient calculation using chain rule
-* Non-linear activation functions
-* Custom weight initialization
-* Gradient descent optimization
+## 📊 Problem Setup
 
-### Artifacts and Metrics
-* Training and validation loss curves
-* Epoch-by-epoch training visualization
-* Final model predictions vs ground truth
-* Convergence analysis
+- **Task**: Non-linear regression on synthetically generated 3-variable data
+- **Target Function Example**:  
+  `y = sin(x1) * log(1 + x2^2) + exp(-x3) + noise`
+- **Goal**: Learn to fit this function using a 3-layer neural network from multiple frameworks
+- **4D Visualization**: Inputs x1, x2, x3 → true vs predicted outputs, with error coloring
 
-### Resources
-* [Colab Notebook](your-numpy-colab-link)
+---
 
-## 2. PyTorch Implementations
+## 📌 Key Requirements Addressed
 
-### PyTorch From Scratch
-#### Description
-Implementation of a 3-layer neural network for non-linear regression using PyTorch's tensor operations but without built-in layer functionality.
+- [x] 3-layer neural network architecture
+- [x] Non-linear activation functions (e.g., ReLU, tanh)
+- [x] Use of `einsum` in TensorFlow instead of matmul
+- [x] Manual backpropagation in NumPy
+- [x] From-scratch PyTorch (no layers) and module-based PyTorch
+- [x] Use of Functional and Sequential APIs in TensorFlow
+- [x] JAX version using `jit`, `grad`, and vectorized ops
+- [x] **4D plots** using Matplotlib for model performance
+- [x] **Video walkthroughs** for all implementations with GitHub directory and explanations
 
-#### Features
-* Manual implementation of network layers
-* Custom forward and backward passes
-* Leveraging PyTorch's autograd for gradient calculation
-* Custom weight initialization
+---
 
-#### Resources
-* [Colab Notebook](your-pytorch-scratch-colab-link)
+## 📽️ Video Walkthrough
 
-### PyTorch with Built-in Modules
-#### Description
-Implementation of a 3-layer neural network using PyTorch's built-in nn.Module system.
+A comprehensive explanation and code walkthrough of every model is available in the following video(s):
 
-#### Features
-* Class-based architecture with nn.Module
-* Built-in layer definitions
-* Optimizers from torch.optim
-* Structured model definition
-
-#### Resources
-* [Colab Notebook](your-pytorch-modules-colab-link)
-
-### PyTorch Lightning
-#### Description
-Implementation of the same neural network using PyTorch Lightning for improved structure and reduced boilerplate.
-
-#### Features
-* LightningModule implementation
-* Training/validation/test separation
-* Built-in logging functionality
-* Structured training loops
-
-#### Resources
-* [Colab Notebook](your-pytorch-lightning-colab-link)
-
-## 3. TensorFlow Implementations
-
-### TensorFlow From Scratch
-#### Description
-Implementation of a 3-layer neural network using TensorFlow's low-level operations without high-level APIs.
-
-#### Features
-* Manual implementation using TensorFlow operations
-* Custom forward and backward passes
-* Use of einsum instead of matrix multiplication
-* GradientTape for automatic differentiation
-
-#### Resources
-* [Colab Notebook](your-tf-scratch-colab-link)
-
-### TensorFlow with Built-in Layers
-#### Description
-Implementation using TensorFlow's built-in layers but with custom training loops.
-
-#### Features
-* tf.keras.layers for network structure
-* Custom training implementation
-* Non-linear activation functions
-* Performance metrics tracking
-
-#### Resources
-* [Colab Notebook](your-tf-layers-colab-link)
-
-### TensorFlow Functional API
-#### Description
-Implementation using TensorFlow's Functional API for model building.
-
-#### Features
-* Functional API model definition
-* Input and output specifications
-* Layer composition
-* Built-in training mechanisms
-
-#### Resources
-* [Colab Notebook](your-tf-functional-colab-link)
-
-### TensorFlow High-Level API
-#### Description
-Implementation using TensorFlow's highest-level APIs for model building and training.
-
-#### Features
-* Sequential or Model API usage
-* Built-in training and evaluation methods
-* Callbacks for monitoring
-* TensorBoard integration
-
-#### Resources
-* [Colab Notebook](your-tf-highlevel-colab-link)
-
-## 4. JAX Implementation
-### Description
-Implementation of the neural network using JAX for accelerated numerical computing.
-
-### Features
-* JAX transformations for gradient computation
-* Functional programming approach
-* JIT compilation for performance
-* NumPy-like API with accelerator support
-
-### Resources
-* [Colab Notebook](your-jax-colab-link)
-
-## 5. Video Walkthrough
-A comprehensive video walkthrough covering:
-* Detailed explanation of each implementation
-* Code walkthrough highlighting key sections
-* Demonstration of results and performance
-* Comparison between different approaches
-* Explanation of non-linear regression problem
-
-### Video Resources
-* [Complete Code Walkthrough](your-video-link)
-* [GitHub Repository Overview](your-repo-overview-video)
-
-## 6. Data Generation and Visualization
-### Description
-Details on the synthetic data generation process using a 3-variable non-linear equation and visualization techniques.
-
-### Features
-* 3-variable non-linear equation implementation
-* Synthetic data generation code
-* 4D visualization techniques
-* Data preprocessing methodology
+- [🎥 Full Walkthrough Video](#)
 
 
+---
 
-## Implementation Requirements
-All implementations include:
-* 3-layer neural network architecture
-* Non-linear activation functions
-* Appropriate number of hidden layer neurons
-* Training loss visualization
-* Comparison with ground truth
-* Use of einsum (where applicable) instead of matrix multiplication
 
-## Dependencies
-* NumPy
-* PyTorch
-* TensorFlow
-* JAX
-* Matplotlib
-* Seaborn
-* Pandas
-* Google Colab
+## 📦 Dependencies
+
+All notebooks are executable in Google Colab. Core dependencies include:
+- `numpy`
+- `matplotlib`
+- `tensorflow`
+- `torch`
+- `jax`
+- `flax`
+- `seaborn`
+
+---
+
