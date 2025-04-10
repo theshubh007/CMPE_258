@@ -4,10 +4,10 @@
 This repository contains the implementation of three different deep learning models, demonstrating comprehensive understanding of various neural network architectures and their applications. The project includes classification, regression, and image classification tasks, complete with detailed performance metrics and analysis.
 
 ## Table of Contents
-1. [Binary Classification Model](#binary-classification-model)
-2. [Regression Model](#regression-model)
-3. [Image Classification Model](#image-classification-model)
-4. [Video Walkthrough](#video-walkthrough)
+1. [Binary Classification Model]
+2. [Regression Model]
+3. [Image Classification Model]
+
 
 ## 1. Binary Classification Model
 ### Description
