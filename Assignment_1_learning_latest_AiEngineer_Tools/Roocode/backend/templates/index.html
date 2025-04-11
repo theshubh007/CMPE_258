@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mood Quotes</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .mood-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select your mood:</h1>
+    <form action="/quotes" method="post">
+        <button class="mood-button" type="submit" name="mood" value="happy">Happy</button>
+        <button class="mood-button" type="submit" name="mood" value="sad">Sad</button>
+        <button class="mood-button" type="submit" name="mood" value="energetic">Energetic</button>
+        <button class="mood-button" type="submit" name="mood" value="neutral">Neutral</button>
+    </form>
+</body>
+</html>

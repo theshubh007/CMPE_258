@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mood Quotes</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .mood-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .quote {
+            font-size: 18px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select your mood:</h1>
+    <button class="mood-button" onclick="getQuotes('happy')">Happy</button>
+    <button class="mood-button" onclick="getQuotes('sad')">Sad</button>
+    <button class="mood-button" onclick="getQuotes('energetic')">Energetic</button>
+    <button class="mood-button" onclick="getQuotes('neutral')">Neutral</button>
+
+    <div id="quotes-container"></div>
+
+    <script>
+        async function getQuotes(mood) {
+            const response = await fetch(`http://localhost:8000/quotes?mood=${mood}`);
+            const data = await response.json();
+            const quotesContainer = document.getElementById('quotes-container');
+            quotesContainer.innerHTML = '';
+            data.forEach(quote => {
+                const quoteElement = document.createElement('p');
+                quoteElement.classList.add('quote');
+                quoteElement.textContent = quote;
+                quotesContainer.appendChild(quoteElement);
+            });
+        }
+    </script>
+</body>
+</html>
