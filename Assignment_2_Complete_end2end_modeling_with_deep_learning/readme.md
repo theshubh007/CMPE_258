@@ -83,7 +83,7 @@ A comprehensive video walkthrough is provided, covering:
 * Demonstration of model predictions
 
 ### Video Resources
-* [Complete Code Walkthrough](https://youtu.be/W4g-PgXR7Sg)
+* [Youtube Video: Complete Code Walkthrough](https://youtu.be/W4g-PgXR7Sg)
 
 
 
