@@ -8,7 +8,9 @@ The work is divided into two main notebooks:
 - TensorFlow operations, including `einsum` demonstrations.
 - PyTorch operations, showcasing core tensor manipulations.
 
+---
 
+- 🎥 [Video Walkthrough](https://youtu.be/PgNc1h-gybM)
 ---
 
 ## 1. Tensor Operations in TensorFlow
