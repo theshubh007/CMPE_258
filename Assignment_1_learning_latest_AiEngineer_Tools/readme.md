@@ -76,5 +76,7 @@ A simple full-stack application developed using Roo Code and Aider, showcasing A
 ### Resources
 
 - 🎥 [Video Walkthrough for Roo Code](https://youtu.be/K8AOiHrjVi8)
+- 📓 [Detailed Code of RooCode base fullstack app]([https://aider.chat/docs/usage/tutorials.html](https://github.com/theshubh007/CMPE_258/tree/main/Assignment_1_learning_latest_AiEngineer_Tools/Roocode))
+  
 - 🎥 [Video Walkthrough for Aider AI](https://youtu.be/uFHoooncTkI)
-- 📓 [Detailed Code of RooCode base fullstack app]([https://aider.chat/docs/usage/tutorials.html](https://github.com/theshubh007/CMPE_258/tree/main/Assignment_1_learning_latest_AiEngineer_Tools/Aider))
+- - 📓 [Detailed Code of Aider Ai base fullstack app](https://aider.chat/docs/usage/tutorials.html](https://github.com/theshubh007/CMPE_258/tree/main/Assignment_1_learning_latest_AiEngineer_Tools/Aider)
