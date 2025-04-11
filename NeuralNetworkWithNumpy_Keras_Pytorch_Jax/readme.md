@@ -53,7 +53,7 @@ Each model is trained on synthetically generated data using a custom **3-variabl
 
 A comprehensive explanation and code walkthrough of every model is available in the following video(s):
 
-- [🎥 Full Walkthrough Video](#)
+- [🎥 Full Walkthrough Video](https://youtu.be/fxfMoKUP-Io)
 
 
 ---
