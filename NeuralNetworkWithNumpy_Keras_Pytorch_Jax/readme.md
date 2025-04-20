@@ -9,6 +9,14 @@ Each model is trained on synthetically generated data using a custom **3-variabl
 
 ---
 
+
+## 📽️ Video Walkthrough
+
+A comprehensive explanation and code walkthrough of every model is available in the following video(s):
+
+- [🎥 Full Walkthrough Video](https://youtu.be/fxfMoKUP-Io)
+---
+
 ## 📂 Repository Structure
 
 | Framework   | Approach                      | Notebook Link | Description |
@@ -47,13 +55,6 @@ Each model is trained on synthetically generated data using a custom **3-variabl
 - [x] **4D plots** using Matplotlib for model performance
 - [x] **Video walkthroughs** for all implementations with GitHub directory and explanations
 
----
-
-## 📽️ Video Walkthrough
-
-A comprehensive explanation and code walkthrough of every model is available in the following video(s):
-
-- [🎥 Full Walkthrough Video](https://youtu.be/fxfMoKUP-Io)
 
 
 ---
