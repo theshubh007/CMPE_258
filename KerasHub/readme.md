@@ -1,111 +1,86 @@
-# 📚 Keras Hub and Teachable Machines Assignment
+# 📚 Assignment 4: Keras Hub and Teachable Machines Colabs
 
 ## Overview
 
-This repository contains implementations and documentation for Google's Teachable Machine examples and Keras Hub model implementations. This assignment demonstrates practical applications of transfer learning and accessible machine learning tools.
+This repository contains the deliverables for **Assignment 4: Keras Hub and Teachable Machines Colabs**. The assignment demonstrates practical applications of **Google's Teachable Machine framework** and **Keras Hub** for machine learning tasks. The project includes examples for **Teachable Machines** and **Keras Hub implementations** across varying levels of complexity.
+
+---
 
 ## 🎯 Table of Contents
 
 1. [Teachable Machine Examples](#1-teachable-machine-examples)
 2. [Keras Hub Implementations](#2-keras-hub-implementations)
-3. [Resources and Documentation](#3-resources-and-documentation)
+
+---
 
 ## 1. Teachable Machine Examples
 
-### Example 1: Image Classification - Plant Health Detector
+### Overview
+This section includes three examples created using **Google's Teachable Machine framework**. Each example demonstrates a unique classification task using image, audio, and pose data. The models are stored in three separate folders in this repository.
 
-A machine learning model trained to identify healthy versus diseased plants from images.
-
-#### Key Features
-- 🌱 Plant disease detection through image recognition
-- 📊 Real-time classification confidence scores
-- 🔄 Easy retraining with new plant samples
-
-**Resources:**
-- 🎥 [Demo Video](https://youtu.be/your-video-link)
-- 🔗 [Live Demo](https://teachablemachine.withgoogle.com/models/your-model-id)
-
-### Example 2: Audio Classification - Environmental Sound Recognizer
-
-A model trained to recognize different environmental sounds like traffic, birds, rain, etc.
+### Example 1: Image Classification - Android vs iPhone
+A machine learning model trained to differentiate between Android phones and iPhones from camera images.
 
 #### Key Features
-- 🎵 Classification of environmental audio samples
-- 📊 Real-time audio analysis
-- 🎚️ Adjustable sensitivity settings
+- Classification between Android and iPhone using images
+- Real-time classification with confidence scores
+- Simple interface for retraining with new device images
 
-**Resources:**
-- 🎥 [Demo Video](https://youtu.be/your-video-link)
-- 🔗 [Live Demo](https://teachablemachine.withgoogle.com/models/your-model-id)
+---
 
-### Example 3: Pose Detection - Yoga Pose Analyzer
-
-A pose detection model trained to recognize and provide feedback on different yoga poses.
+### Example 2: Audio Classification - Violin vs Guitar
+An audio model that classifies whether the sound is from a violin or a guitar.
 
 #### Key Features
-- 🧘‍♀️ Real-time yoga pose recognition
-- 📏 Pose accuracy measurement
-- 🎯 Personalized feedback on pose alignment
+- Classifies musical instrument sounds
+- Real-time audio classification
+- Usable in music-related applications or games
 
-**Resources:**
-- 🎥 [Demo Video](https://youtu.be/your-video-link)
-- 🔗 [Live Demo](https://teachablemachine.withgoogle.com/models/your-model-id)
+---
+
+### Example 3: Pose Classification - Right High Five, Left High Five, Sitting
+A pose recognition model that detects and classifies three physical postures: right high five, left high five, and sitting.
+
+#### Key Features
+- Real-time body pose classification
+- Recognizes dynamic gestures and positions
+- Interactive for gesture-based applications
+
+---
+
+### Video Walkthrough
+- 🎥 ▶️ [YouTube Video for Teachable Machines](https://youtu.be/3v50RyIvJhk)
+
+-------
+
 
 ## 2. Keras Hub Implementations
 
-### Easy: Image Classification with MobileNet
+### Overview
+This section includes **four levels of Keras Hub implementations** (Easy, Intermediate, Advanced, Expert) for both image and text classification tasks. Each implementation is provided as a Colab notebook with detailed explanations. The repository also includes two YouTube videos explaining the implementations.
 
-A simple implementation of transfer learning using MobileNet for custom image classification.
+### Colab Links Table
 
-#### Key Features
-- 🖼️ Pre-trained MobileNet model adaptation
-- 🎯 Fine-tuning for custom categories
-- 📊 Performance visualization
+| **Level**       | **Task**                                    | **Colab Link**                                                                                     |
+|----------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Easy           | Image Classification (CIFAR-10)             | [Colab Notebook](https://colab.research.google.com/drive/1RYL3bTN41sfdI7yLC376WHdUXGXdYcGr?usp=sharing)                    |
+| Easy           | Text Classification (IMDB)                  | [Colab Notebook](https://colab.research.google.com/drive/1LUD0VCzRkOknpWHm_axSQLP9KxwG_mSU?usp=sharing)                     |
+| Intermediate   | Image Classification (Flowers)              | [Colab Notebook](https://colab.research.google.com/drive/1PozfV0R2tV8AfXxktON1dNt8ZTOBTWFh?usp=sharing)            |
+| Intermediate   | Text Classification (AG News)               | [Colab Notebook](https://colab.research.google.com/drive/1VhjQmUHt_UzNm2CFCO09ge7fX4Iq3EOq?usp=sharing)             |
+| Advanced       | Image Classification (EuroSAT)              | [Colab Notebook](https://colab.research.google.com/drive/1HWQFyOg_7HBGw3iq1d50l3Antz-LSLy5?usp=sharing)                |
+| Advanced       | Text Classification (Yelp Polarity)         | [Colab Notebook](https://colab.research.google.com/drive/1qthAC8jPJXHqT1I1CUsVrNFO6FUzya_w?usp=sharing)                 |
+| Expert         | Image Classification (EfficientNetB3)       | [Colab Notebook](https://colab.research.google.com/drive/15i2ZlMwQg6DrRjl74eA-HvFeSNr2UuIN?usp=sharing)                  |
+| Expert         | Text Classification (Yelp Polarity - BiLSTM)| [Colab Notebook](https://colab.research.google.com/drive/1VDme4xyHBdZOkjjwRwC24LGu8QthFKfd?usp=sharing)                   |
 
-**Resources:**
-- 🎥 [Video Walkthrough](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/your-notebook-link)
+---
 
-### Intermediate: Text Classification with BERT
+### Video Walkthrough
+- 🎥▶️  [YouTube Video for Image Classification using Keras Hub](https://youtu.be/MO1MvWa5t1Q)
+- 🎥▶️  [YouTube Video for Text Classification using Keras Hub](https://youtu.be/T6iLVgCXaTQ)
 
-Text sentiment analysis implementation using BERT from TensorFlow Hub.
+---
 
-#### Key Features
-- 📝 Powerful BERT-based text encoding
-- 🎯 Fine-tuning for sentiment analysis
-- 📊 Multi-class classification capabilities
-
-**Resources:**
-- 🎥 [Video Explanation](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/your-notebook-link)
-
-### Advanced: Multi-modal Implementation with Images and Text
-
-A sophisticated implementation combining visual and textual data for rich predictions.
-
-#### Key Features
-- 🔄 Dual-input neural network architecture
-- 🎯 Cross-modal feature fusion
-- 📊 Enhanced prediction accuracy through multi-modal learning
-
-**Resources:**
-- 🎥 [Demo and Code Walkthrough](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/your-notebook-link)
-
-### Expert: Fine-tuning EfficientNet with Custom Dataset
-
-An expert-level implementation fine-tuning EfficientNet architecture on a specialized dataset.
-
-#### Key Features
-- 🔧 Advanced model architecture customization
-- 📈 Learning rate scheduling and optimization
-- 📊 Model performance analysis and hyperparameter tuning
-
-**Resources:**
-- 🎥 [Detailed Technical Walkthrough](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/your-notebook-link)
-
-## 3. Resources and Documentation
+## Resources and Documentation
 
 ### Teachable Machine Resources
 - [Official Teachable Machine Documentation](https://teachablemachine.withgoogle.com/faq)
@@ -117,22 +92,5 @@ An expert-level implementation fine-tuning EfficientNet architecture on a specia
 - [Keras Documentation](https://keras.io/api/)
 - [Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning)
 
-### Implementation Details
-- Each implementation includes comprehensive documentation of the model architecture, training process, and usage instructions
-- All projects feature detailed requirements and setup guidelines
-- Video demonstrations provide step-by-step explanations of the code and concepts
+---
 
-## Installation and Usage
-
-Each project contains specific setup instructions in its respective directory. General requirements include:
-
-```
-tensorflow>=2.4.0
-tensorflow-hub>=0.12.0
-numpy>=1.19.5
-matplotlib>=3.3.4
-pillow>=8.1.0
-scikit-learn>=0.24.1
-```
-
-For Teachable Machine examples, no installation is required as they run directly in the browser.
