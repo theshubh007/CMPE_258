@@ -29,7 +29,7 @@ This assignment contains two fully annotated and modular notebooks:
   - Multi-Agent Coordination (simulated)
   - [Google Colab](https://colab.research.google.com/drive/1MxWY1uJLMEfOXFhwtGjPMSdX3q1Yd-9Q?usp=sharing)
 
-- 🤖 `crewai_agent_patterns.ipynb`: Mirrors the above patterns using **CrewAI** framework
+- 🤖 `Part_B_crewai_agent_patterns.ipynb`: Mirrors the above patterns using **CrewAI** framework
   - Role assignment
   - Tool integration
   - Task distribution among specialized agents
