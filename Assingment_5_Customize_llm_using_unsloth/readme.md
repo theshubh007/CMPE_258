@@ -2,213 +2,133 @@
 
 ## Overview
 
-This repository contains implementations and documentation for fine-tuning Large Language Models using Unsloth. The assignment demonstrates practical applications of model customization, continued pretraining, and specialized fine-tuning for different use cases.
+This repository contains implementations and documentation for **Assignment 5: Customize LLM using Unsloth**. The assignment demonstrates practical applications of fine-tuning, continued pretraining, reward modeling, and exporting models for local inference. Each task is accompanied by a **Colab Notebook** and a **Video Demonstration** explaining the process in detail.
+
+---
 
 ## 🎯 Table of Contents
 
-1. [Model Fine-tuning](#1-model-fine-tuning)
-2. [Continued Pretraining](#2-continued-pretraining)
-3. [Chat Templates for Various Tasks](#3-chat-templates-for-various-tasks)
-4. [Reward Modeling](#4-reward-modeling)
-5. [Continued Fine-tuning from Custom Checkpoint](#5-continued-fine-tuning-from-custom-checkpoint)
-6. [Mental Health Chatbot Fine-tuning](#6-mental-health-chatbot-fine-tuning)
-7. [Export to Ollama and Inference](#7-export-to-ollama-and-inference)
+1. [Task A: Model Fine-tuning](#1-task-a-model-fine-tuning)
+2. [Task B: Continued Pretraining](#2-task-b-continued-pretraining)
+3. [Task C: Chat Templates](#3-task-c-chat-templates)
+4. [Task D: Reward Modeling](#4-task-d-reward-modeling)
+5. [Task E: Continued Fine-tuning from Custom Checkpoint](#5-task-e-continued-fine-tuning-from-custom-checkpoint)
+6. [Task F: Mental Health Chatbot Fine-tuning](#6-task-f-mental-health-chatbot-fine-tuning)
+7. [Task G: Export to Ollama and Inference](#7-task-g-export-to-ollama-and-inference)
 
-## 1. Model Fine-tuning
+---
+- 🎥▶️  [YouTube Video walkthrough Task A](https://youtu.be/9V6s4rg4mJw)
 
-Four unique use cases demonstrating fine-tuning of various open-weights LLM models.
+- 🎥▶️  [YouTube Video walkthrough Task B TO G](https://youtu.be/dqjPvYkBq_Q)
+---
+## 1. Task A: Model Fine-tuning
 
-### Use Case 1: Llama 3.1 (8B) for Coding Assistance
+Fine-tune any of the following open-weight LLMs for **four unique use cases**. Each use case demonstrates a specific task such as coding, chat, or creative writing. The process includes explaining the input format, dataset used, and the fine-tuning methodology.
 
-Fine-tuned Llama 3.1 to improve code generation and debugging abilities.
 
-#### Key Features
-- 🔧 Fine-tuned on high-quality coding examples and explanations
-- 📊 Performance evaluation on common programming tasks
-- 💻 Code completion and debugging capabilities
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1Qvb_YHi1TX2G3LzXBUfn9Cp48SRhLzDH)
+### Use Cases:
+1. **Llama 3.1 (8B) for Coding Assistance**
+   - Task: Code generation and debugging.
+   - Features: Fine-tuned on high-quality coding examples.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1qXI8MVEa4oLnTGlCEe630mwOYXSEUo5d?usp=sharing)
 
-### Use Case 2: Mistral NeMo (12B) for Scientific Q&A
+2. **Mistral NeMo (12B) for Scientific Q&A**
+   - Task: Scientific information retrieval and explanation.
+   - Features: Specialized in scientific domain knowledge.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1tGmTHnzMKJ9ooriev1tr2dKQhsxa54dM?usp=sharing)
 
-Fine-tuned Mistral NeMo for accurate scientific information retrieval and explanation.
+3. **Gemma 2 (9B) for Creative Writing**
+   - Task: Story generation and character development.
+   - Features: Enhanced narrative coherence and creative prompt handling.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/16M-elSBS8yvvf_aDSN4g2lS6pyc6p3Gv?usp=sharing) 
 
-#### Key Features
-- 🧪 Specialized in scientific domain knowledge
-- 📚 Enhanced capability to explain complex scientific concepts
-- 🔍 Improved accuracy in scientific Q&A
+4. **Phi-3 (medium) for Educational Content**
+   - Task: Simplified explanations and interactive learning material.
+   - Features: Custom educational content generation.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1NaiEXmf6eCcyb8qC2oezwaQGmYexILY3?usp=sharing) 
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1B8S33VC2k9eX5G0JG7A5XRX9rWH0WrL5)
+---
 
-### Use Case 3: Gemma 2 (9B) for Creative Writing
+## 2. Task B: Continued Pretraining
 
-Fine-tuned Gemma 2 for enhanced creative writing capabilities.
+Use **Unsloth AI** to teach an LLM a new language through continued pretraining.
 
-#### Key Features
-- 📝 Story generation with improved narrative coherence
-- 🎭 Character development and dialogue writing
-- 🎨 Creative prompt handling with diverse outputs
+### Example:
+- **Learning Spanish with TinyLlama**
+  - Task: Enhance Spanish language capabilities.
+  - Features: Integration of Spanish language corpus and evaluation metrics.
+  - Resources: [Colab Notebook](https://colab.research.google.com/drive/16CAiE0qB9gezP4joLrMNVo50xacOdGGe?usp=sharing)
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1NbT7WCoPNIJ9cbQJ9P0QER-7nDHMDzl9)
+---
 
-### Use Case 4: Phi-3 (medium) for Educational Content
+## 3. Task C: Chat Templates
 
-Fine-tuned Phi-3 medium for generating educational content and explanations.
+Implement specialized chat templates for various tasks.
 
-#### Key Features
-- 🎓 Simplified explanations of complex topics
-- 📚 Custom educational content generation
-- 🧩 Interactive learning material creation
+### Templates:
+1. **Classification Chat Template**
+   - Task: Multi-class and multi-label classification.
+   - Features: Confidence scoring and flexible category systems.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1-f2V8DoDV_9bTJqphUfv2smzcy4JGpk2?usp=sharing)
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1PX7FyZ8fH0ZXJQEkl6mhC3h3lX3vPiQQ)
+2. **Conversational Chat Template**
+   - Task: Natural dialogue and persona customization.
+   - Features: Improved context handling and memory management.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1ywPmEfQBSwnPmXre_O0gBD_xYUJcqhX4?usp=sharing)
 
-## 2. Continued Pretraining
+3. **Extended Context TinyLlama**
+   - Task: Extend maximum context size for longer documents.
+   - Features: Improved long-range dependency modeling.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1NiR6mTuYOG-2b_3WdOU52IqKWhzKKJNV?usp=sharing)
 
-Using Unsloth AI to teach an LLM a new language through continued pretraining.
+4. **Multiple Datasets Single Fine-tuning**
+   - Task: Fine-tune using multiple diverse datasets.
+   - Features: Multi-task learning and cross-domain performance improvements.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1NjzfkYFD-WnRNPNvI9D2rhxJ8FWFf-Cl?usp=sharing)
 
-### Learning Spanish with TinyLlama
+---
 
-Implementation of continued pretraining to enhance a model's Spanish language capabilities.
+## 4. Task D: Reward Modeling
 
-#### Key Features
-- 🌐 Spanish language corpus integration
-- 📈 Progressive improvement in language understanding
-- 🔄 Evaluation metrics for language proficiency
+Implement reward modeling techniques for improved model outputs.
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1DFrrSJcmGi1C-jUdARGBXjKLVN2kZoNk)
+### Approaches:
+1. **ORPO (Off-policy Reinforcement from Human Preferences)**
+   - Task: Align responses with human preferences.
+   - Features: Off-policy learning for efficient training.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1fIliyvNK3YM9WaYdeGZdH471SMFm7EK8?usp=sharing) 
 
-## 3. Chat Templates for Various Tasks
+2. **DPO (Direct Preference Optimization)**
+   - Task: Optimize based on preference pairs.
+   - Features: Simplified training without explicit reward modeling.
+   - Resources: [Colab Notebook](https://colab.research.google.com/drive/1IFe-B_xJbMMYD74S0RYMwuiCNvQiQvlK?usp=sharing)
 
-Implementation of specialized chat templates for different applications.
+---
 
-### Classification Chat Template
+## 5. Task E: Continued Fine-tuning from Custom Checkpoint
 
-A template optimized for classification tasks with structured outputs.
+Fine-tune a model starting from a previously trained custom checkpoint.
 
-#### Key Features
-- 🏷️ Multi-class and multi-label classification capabilities
-- 📊 Confidence scoring for classifications
-- 🔄 Flexible category system for various domains
+- Features: Efficient training with staged improvement.
+- Resources: [Colab Notebook](https://colab.research.google.com/drive/1d8pvMPuvV_w9B7G_2xqNwm0sRmKIDOUA?usp=sharing)
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1lJvJcMR3hX4BEUlEVHpkDXJ0jnqJoM6j)
+---
 
-### Conversational Chat Template
+## 6. Task F: Mental Health Chatbot Fine-tuning
 
-Enhanced template for natural dialogue and conversation.
+Fine-tune **Phi-3** with Unsloth for mental health support.
 
-#### Key Features
-- 💬 Improved context handling for extended conversations
-- 🎭 Persona customization options
-- 🔄 Memory management for coherent exchanges
+- Features: Empathetic response generation and safety guardrails.
+- Resources: [Colab Notebook](https://colab.research.google.com/drive/164fmnlmvNsJHeBV55B-4arRztSXMyaJE?usp=sharing)
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1Xy1sKI6nCsrQP9SHJkq9qIAVJRsBKqDc)
+---
 
-### Extended Context TinyLlama
+## 7. Task G: Export to Ollama and Inference
 
-Implementation to extend the maximum context size of TinyLlama.
+Fine-tune a model with Unsloth and export it to **Ollama** for local inference.
 
-#### Key Features
-- 📚 Increased context window for longer documents
-- 🔍 Improved long-range dependency modeling
-- 📊 Performance evaluation at different context lengths
+- Features: Model optimization for local deployment and performance benchmarking.
+- Resources: [Colab Notebook](https://colab.research.google.com/drive/1iYyIW9C11z7lspbMQvn3zYj1WCVCLdfq?usp=sharing)
 
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1QK8eGD1OHIlEs7XeJ8B1QQx6vE9iGIDJ)
-
-### Multiple Datasets Single Fine-tuning
-
-Fine-tuning using multiple diverse datasets in a single process.
-
-#### Key Features
-- 🔄 Multi-task learning capabilities
-- 📚 Balanced training across different data sources
-- 📊 Cross-domain performance improvements
-
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1ZGYPfLZV2JtfpF82nXrM9qM83xNr8tKV)
-
-## 4. Reward Modeling
-
-Implementation of reward modeling techniques for improved model outputs.
-
-### ORPO (Off-policy Reinforcement from Human Preferences)
-
-Reward modeling using ORPO approach.
-
-#### Key Features
-- 🎯 Human preference alignment
-- 📊 Enhanced response quality through feedback
-- 🔄 Off-policy learning for efficient training
-
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1FSlVft7H8NLeRSrjH_oRvh-5X1FqTg6A)
-
-### DPO (Direct Preference Optimization)
-
-Reward modeling using the DPO approach.
-
-#### Key Features
-- 🎯 Direct optimization based on preference pairs
-- 📈 Simplified training without explicit reward modeling
-- 📊 Performance comparison with traditional methods
-
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1EXw1WJ6YUTbVYZAZpY2XWgmBZTbDL0qo)
-
-## 5. Continued Fine-tuning from Custom Checkpoint
-
-Implementation of fine-tuning from a previously trained custom checkpoint.
-
-#### Key Features
-- 🔄 Efficient training by starting from existing weights
-- 📈 Progressive improvement through staged training
-- 📊 Performance comparison before and after additional fine-tuning
-
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/15PNv2XVfHj6aSGvkT9YvG5c1LYi-kWGG)
-
-## 6. Mental Health Chatbot Fine-tuning
-
-Fine-tuning Phi-3 with Unsloth for mental health support.
-
-#### Key Features
-- 💭 Empathetic response generation
-- 🧠 Mental health resource awareness
-- 🛡️ Safety guardrails for sensitive topics
-
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1q7-fUQ3JjJ2YnvFYp4UCmiSZm0r_F4vX)
-
-## 7. Export to Ollama and Inference
-
-Fine-tuning a model with Unsloth and exporting it to Ollama for local inference.
-
-#### Key Features
-- 🚀 Model optimization for local deployment
-- 💻 Ollama integration for easy inference
-- 📊 Performance benchmarking on local hardware
-
-**Resources:**
-- 🎥 [Video Demonstration](https://youtu.be/your-video-link)
-- 📓 [Colab Notebook](https://colab.research.google.com/drive/1qJV-XQeGEPQxSBq9J9fYfJ9rkjzJdqJi)
-
+---
