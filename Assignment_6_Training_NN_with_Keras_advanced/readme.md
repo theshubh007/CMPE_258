@@ -1,4 +1,4 @@
-# 🧠 Assignment 6: Advanced Training of Neural Networks with Keras
+# Assignment 6: Advanced Training of Neural Networks with Keras
 
 ## 📌 Overview
 
@@ -67,7 +67,9 @@ This notebook dives deep into **custom Keras constructs** to gain full control o
 
 ## 🎥 Video Demonstration
 
-🎥 [Watch Full Walkthrough](https://youtu.be/YOUR_VIDEO_LINK)
+🎥 [Watch Full Walkthrough of Part 1](https://youtu.be/SCYHZDNqfjk)
+
+🎥 [Watch Full Walkthrough of Part 2](https://youtu.be/lMTvoXMSueg)
 
 - Code Walkthrough
 - Colab Execution
