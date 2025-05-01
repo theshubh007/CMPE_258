@@ -1,4 +1,4 @@
-# 📊 Assignment 8: Advanced Computer Vision Techniques
+# Assignment 8: Advanced Computer Vision Techniques
 
 ## 🌐 Overview
 
