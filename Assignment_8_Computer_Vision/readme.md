@@ -18,101 +18,115 @@ This repository contains comprehensive implementations of advanced computer visi
 ## 1. Supervised Contrastive Learning
 
 ### 🎯 Objective
+
 Demonstrate and compare supervised contrastive learning loss-based classification with traditional softmax-based approaches.
 
 ### 📝 Implementation Details
+
 - Implementation of supervised contrastive loss function
 - Comparison with standard softmax cross-entropy loss
 - Evaluation on image classification tasks
 - Comprehensive visualizations of feature embeddings
 
 ### 🔗 Resources
-- [Colab Notebook](https://colab.research.google.com/drive/YOUR_NOTEBOOK_LINK)
-- [Supervised Contrastive Learning Paper](https://arxiv.org/abs/2004.11362)
-- [Keras Implementation Example](https://keras.io/examples/vision/supervised-contrastive-learning)
+
+- [Colab Notebook: Supervised Contrastive Learning](https://colab.research.google.com/drive/1LzQarso3f_nrwuT2Nl_D0I9y29yQ6_TW?usp=sharing)
 
 ---
 
 ## 2. Transfer Learning Across Modalities
 
 ### 🎯 Objective
+
 Implement transfer learning across different data modalities (images, video, audio) using both feature extraction and fine-tuning approaches.
 
 ### 📝 Implementation Details
 
 #### 🖼️ Image Transfer Learning
+
 - Feature extraction with pre-trained CNN backbones
 - Fine-tuning implementation for image classification
 - Performance comparison between approaches
-- [Colab Notebook](https://colab.research.google.com/drive/YOUR_IMAGE_NOTEBOOK_LINK)
+- [Colab Notebook: Image Transfer Learning](https://colab.research.google.com/drive/1tQ9UFTz8o7D0GNF1FZk1v0Dh27icVtaN?usp=sharing)
 
 #### 🎬 Video Transfer Learning
+
 - Action recognition using pre-trained video models
 - Fine-tuning for custom action categories
-- [Colab Notebook](https://colab.research.google.com/drive/YOUR_VIDEO_NOTEBOOK_LINK)
+- [Colab Notebook: Video Transfer Learning](https://colab.research.google.com/drive/1egIgFaEEaLdcl-UnazX0pG6pSuMphyMt?usp=sharing)
 
 #### 🔊 Audio Transfer Learning
+
 - Audio classification using YAMNet
 - Feature extraction and fine-tuning for audio data
-- [Colab Notebook](https://colab.research.google.com/drive/YOUR_AUDIO_NOTEBOOK_LINK)
-
-### 🔗 Resources
-- [TensorFlow Hub for Transfer Learning](https://www.tensorflow.org/hub)
-- [Audio Transfer Learning with YAMNet](https://blog.tensorflow.org/2021/03/transfer-learning-for-audio-data-with-yamnet.html)
-- [Video Action Recognition with TF Hub](https://www.tensorflow.org/hub/tutorials/action_recognition_with_tf_hub)
+- [Colab Notebook: Audio Transfer Learning](https://colab.research.google.com/drive/16cdZRU-_N_7IHLmUgLdtG7ODSvZjZjNY?usp=sharing)
 
 ---
 
 ## 3. Zero-Shot Transfer Learning
 
 ### 🎯 Objective
+
 Demonstrate zero-shot learning capabilities using CLIP and other state-of-the-art models from TF Hub.
 
-### 📝 Implementation Details
-- CLIP model implementation for zero-shot image classification
-- Experiments with various prompts and categories
-- Transfer learning using BiT (Big Transfer) models
-- Performance evaluation on standard datasets
+### 3.1 Zero-Shot Image Classification with CLIP
 
-### 🔗 Resources
-- [CLIP Zero-Shot Colab](https://colab.research.google.com/drive/YOUR_CLIP_NOTEBOOK_LINK)
-- [BiT Transfer Learning Colab](https://colab.research.google.com/drive/YOUR_BIT_NOTEBOOK_LINK)
-- [OpenAI CLIP Repository](https://github.com/openai/CLIP)
+OpenAI's CLIP (Contrastive Language-Image Pre-training) demonstrates remarkable zero-shot capabilities by connecting image and text representations in a shared embedding space.
+
+#### Implementation Details
+
+- Setup and deployment of CLIP model architecture
+- Creation of text encoders for arbitrary classification categories
+- Implementation of zero-shot prediction pipeline without fine-tuning
+- Evaluation across multiple image domains with varying prompts
+- Analysis of contextual prompt engineering on classification performance
+
+- [Colab Notebook](https://colab.research.google.com/drive/1kt-GT7P_3hlfKktUOuGj1yyRHcBvXBuL?usp=sharing)
+
+### 3.2 Transfer Learning with BiT TFHub(Big Transfer)
+
+BiT represents a state-of-the-art approach to transfer learning that leverages massive pre-training and careful fine-tuning procedures.
+
+#### Implementation Details
+
+- Deployment of pre-trained BiT models from TensorFlow Hub
+- Implementation of efficient fine-tuning procedures on custom datasets
+- Experimentation with different model scales (BiT-S, BiT-M, BiT-L)
+- Comparison of transfer learning performance with varying amounts of training data
+- Evaluation on both standard and custom classification tasks
+- [Colab Notebook](https://colab.research.google.com/drive/1zls_IhGejN9zfhYhgW4kFiLH6HY_gTvN?usp=sharing)
 
 ---
 
 ## 4. Image Classification with State-of-the-Art Models
 
 ### 🎯 Objective
+
 Implement and evaluate various state-of-the-art models across multiple datasets.
 
 ### 📝 Implementation Details
 
-#### 📊 Standard Datasets Implementation
-- MNIST classification using ConvNets
-  - [Colab Notebook](https://colab.research.google.com/drive/YOUR_MNIST_NOTEBOOK_LINK)
-- Fashion MNIST with transfer learning
-  - [Colab Notebook](https://colab.research.google.com/drive/YOUR_FASHION_MNIST_NOTEBOOK_LINK)
-- CIFAR-10 with EfficientNet and BiT
-  - [Colab Notebook](https://colab.research.google.com/drive/YOUR_CIFAR10_NOTEBOOK_LINK)
-
 #### 🏥 Medical Imaging Applications
-- X-ray pneumonia classification with ConvNets
-  - [Colab Notebook](https://colab.research.google.com/drive/YOUR_XRAY_NOTEBOOK_LINK)
-- 3D CT scan classification
-  - [Colab Notebook](https://colab.research.google.com/drive/YOUR_CT_SCAN_NOTEBOOK_LINK)
 
-#### 🧠 Advanced Architectures
-- MLP-Mixer implementation and evaluation
-- ConvNeXt V2 for image classification
-- Comparison with traditional CNN architectures
+- Task A: X-ray pneumonia classification with ConvNets
 
-### 🔗 Resources
-- [Keras MLP-Mixer Example](https://keras.io/examples/vision/mlp_image_classification)
-- [EfficientNet Fine-tuning](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning)
-- [BiT Transfer Learning](https://keras.io/examples/vision/bit)
-- [X-ray Classification Tutorial](https://keras.io/examples/vision/xray_classification_with_tpus)
-- [3D Image Classification](https://keras.io/examples/vision/3D_image_classification)
+  - [Colab Notebook: X-ray Classification](https://colab.research.google.com/drive/1VFL--iuljaGaRAJ7Xj2HjZs9byPv8C8n?usp=sharing)
+
+- Task B: 3D image classication of CT scan
+  - [Colab Notebook: 3D Image Classification](https://colab.research.google.com/drive/1lpuQlKwbYzpePVS6G3JjqVYNQBc-gUyF?usp=sharing)
+
+#### 📊 Transfer learning Implementation for Standard Datasets
+
+- MNIST classification using ConvNets
+
+  - [Colab Notebook: MNIST Classification](https://colab.research.google.com/drive/1jhN88eDpBFdm32FTMRFg_8pet08Vh-Ww?usp=sharing)
+
+- Fashion MNIST with transfer learning
+
+  - [Colab Notebook: Fashion MNIST Classification](https://colab.research.google.com/drive/1Y08aCCfbebnYviMWvgDjC13iPUUpqPaq?usp=sharing)
+
+- CIFAR-10 with EfficientNet and BiT
+  - [Colab Notebook: CIFAR-10 Classification](https://colab.research.google.com/drive/1MxkO72GwnIGEtM9x7OrMnwjayIe6uBuT?usp=sharing)
 
 ---
 
@@ -122,19 +136,9 @@ This repository demonstrates a comprehensive exploration of modern computer visi
 
 ---
 
-## 📚 References
-
-1. Khosla, P., Teterwak, P., Wang, C., Sarna, A., Tian, Y., Isola, P., Maschinot, A., Liu, C., & Krishnan, D. (2020). Supervised Contrastive Learning. arXiv preprint arXiv:2004.11362.
-2. Kolesnikov, A., Beyer, L., Zhai, X., Puigcerver, J., Yung, J., Gelly, S., & Houlsby, N. (2020). Big Transfer (BiT): General Visual Representation Learning. arXiv preprint arXiv:1912.11370.
-3. Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., ... & Sutskever, I. (2021). Learning transferable visual models from natural language supervision. In International Conference on Machine Learning.
-4. Tolstikhin, I., Houlsby, N., Kolesnikov, A., Beyer, L., Zhai, X., Unterthiner, T., ... & Dosovitskiy, A. (2021). MLP-Mixer: An all-MLP Architecture for Vision. arXiv preprint arXiv:2105.01601.
-5. Liu, Z., Mao, H., Wu, C. Y., Feichtenhofer, C., Darrell, T., & Xie, S. (2022). A ConvNet for the 2020s. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.
-
----
-
 ## 🎓 Video Walkthrough
 
-🎥 [Watch the Complete Walkthrough](https://youtu.be/YOUR_YOUTUBE_LINK)
+🎥 [Watch the Complete Walkthrough](https://youtu.be/ADrqzDJj35o)
 
 ---
 
