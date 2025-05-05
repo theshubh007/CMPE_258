@@ -76,6 +76,59 @@ Each Colab includes markdown explanations, execution logs, visualizations, and w
 - Debugging via LangSmith Studio
 - Agent execution traces and visualization interpretation
 
+> **Note**: Update this link with your actual YouTube video URL once uploaded.
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Python 3.8+
+- Google account (for Colab access)
+- OpenAI API key (for LLM access)
+- LangSmith account (for Part A tracing)
+
+### Running the Notebooks
+1. Open the provided Colab links:
+   - [Part A: LangGraph Patterns](https://colab.research.google.com/drive/1MxWY1uJLMEfOXFhwtGjPMSdX3q1Yd-9Q?usp=sharing)
+   - [Part B: CrewAI Agent Patterns](https://colab.research.google.com/drive/1OCQe-43pos_KAJRO3r1paoKEeugMaK_R?usp=sharing)
+2. Add your API keys in the designated cells
+3. Run all cells or follow along step-by-step with explanations
+
+### Local Setup (Optional)
+```bash
+# Clone the repository
+git clone [your-repo-url]
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Jupyter locally
+jupyter notebook
+```
+
+---
+
+## 💡 Implementation Details
+
+### Part A: LangGraph Implementation
+- **Sequential Pattern**: Implements a step-by-step research workflow where each node processes and transforms the output of the previous node
+- **Branching Pattern**: Demonstrates conditional routing based on task complexity assessment
+- **Retry Pattern**: Shows error handling with automatic retries when validation fails
+- **Multi-Agent Pattern**: Simulates collaboration between specialized agents (researcher, writer, critic)
+
+### Part B: CrewAI Implementation
+- **Agent Roles**: Defines specialized agents with distinct personalities and capabilities
+- **Task Assignment**: Configures tasks with clear goals, expected outputs, and priority levels
+- **Process Visualization**: Shows how agents interact, delegate, and collaborate
+- **Memory Sharing**: Demonstrates how information is passed between agents
+
+### Key Differences Between Frameworks
+- LangGraph offers more granular control over execution flow
+- CrewAI provides a more intuitive interface for role-based agent design
+- LangGraph has native tracing via LangSmith
+- CrewAI excels at simulating human-like team dynamics
+
 ---
 
 ## 📚 References
@@ -86,5 +139,3 @@ Each Colab includes markdown explanations, execution logs, visualizations, and w
 - [Agent Design Guide - Notion](https://mirror-feeling-d80.notion.site/Workflow-And-Agents-17e808527b1780d792a0d934ce62bee6)
 
 ---
-
-
