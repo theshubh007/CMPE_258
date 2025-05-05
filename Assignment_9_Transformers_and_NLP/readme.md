@@ -17,7 +17,15 @@ The goal of this assignment is to demonstrate practical implementations of key t
 - Providing a video walkthrough with debugging traces
 
 ---
+## Walkthrough Video
 
+[🎥 Watch Assignment 9 Demo Walkthrough](https://youtu.be/YOUR_YOUTUBE_VIDEO_LINK)
+
+- Full Colab walkthrough
+- Debugging traces and visualizations
+- Performance analysis and comparisons
+
+---
 ## Included Notebooks
 
 This assignment contains three fully annotated and modular notebooks:
@@ -75,13 +83,7 @@ Each Colab includes markdown explanations, execution logs, visualizations, and d
 
 ---
 
-## Walkthrough Video
 
-[🎥 Watch Assignment 9 Demo Walkthrough](https://youtu.be/YOUR_YOUTUBE_VIDEO_LINK)
-
-- Full Colab walkthrough
-- Debugging traces and visualizations
-- Performance analysis and comparisons
 
 > **Note**: Update this link with your actual YouTube video URL once uploaded.
 
