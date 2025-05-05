@@ -161,7 +161,7 @@ This repository demonstrates a comprehensive exploration of modern computer visi
 
 ## 🎓 Video Walkthrough
 
-🎥 [Watch the Complete Walkthrough](https://youtu.be/ADrqzDJj35o)
+🎥 [Watch the Complete Walkthrough](https://youtu.be/fnnwyMfk4ss)
 
 ---
 
