@@ -26,20 +26,20 @@ This assignment contains three fully annotated and modular notebooks:
   - Text classification
   - Sentiment analysis
   - Text generation
-  - [Google Colab](https://colab.research.google.com/drive/YOUR_COLAB_LINK_A)
+  - [✅ Google Colab](https://colab.research.google.com/drive/1cLfnji-YTmgQxpMP2mZxPxCK2Kq6eAyW?usp=sharing)
 
 - `PartB_Finetune_Transformer.ipynb`: Shows how to fine-tune pre-trained transformer models
   - Transfer learning with BERT
   - Domain adaptation
   - Performance evaluation
-  - [Google Colab](https://colab.research.google.com/drive/YOUR_COLAB_LINK_B)
+  - [✅ Google Colab](https://colab.research.google.com/drive/1zo0fENauhdrTfp3k74L_eWHlfADstucc?usp=sharing)
 
 - `PartC_Build_Transformer_From_Scratch.ipynb`: Builds a transformer architecture from scratch
   - Attention mechanism implementation
   - Positional encoding
   - Multi-head attention
   - Training and evaluation
-  - [Google Colab](https://colab.research.google.com/drive/YOUR_COLAB_LINK_C)
+  - [✅ Google Colab](https://colab.research.google.com/drive/15eezcNnQNPKE19tx4B4cmWLO5EqrKhO0?usp=sharing)
 
 Each Colab includes markdown explanations, execution logs, visualizations, and detailed analysis of results.
 
@@ -77,7 +77,7 @@ Each Colab includes markdown explanations, execution logs, visualizations, and d
 
 ## Walkthrough Video
 
-[Watch Assignment 9 Demo Walkthrough](https://youtu.be/YOUR_YOUTUBE_VIDEO_LINK)
+[🎥 Watch Assignment 9 Demo Walkthrough](https://youtu.be/YOUR_YOUTUBE_VIDEO_LINK)
 
 - Full Colab walkthrough
 - Debugging traces and visualizations
