@@ -105,6 +105,22 @@ BiT represents a state-of-the-art approach to transfer learning that leverages m
 Implement and evaluate various state-of-the-art models across multiple datasets.
 
 ### 📝 Implementation Details
+#### 🔬 Advanced State-of-the-Art Architectures
+
+- **MLP-Mixer Implementation**
+  - All-MLP architecture for computer vision without convolutions or attention
+  - Patch-based representation learning approach
+  - Performance benchmarking against CNN counterparts
+  - Exploring token-mixing and channel-mixing MLP blocks
+  - [Colab Notebook: MLP-Mixer Implementation](https://colab.research.google.com/drive/1QYMKkw4iiIVRZOS0BuQSUG1DVYWRhjm2?usp=sharing)
+
+- **ConvNeXt v2 Architecture**
+  - Implementation of the next-generation ConvNet design
+  - Global response normalization and other architectural innovations
+  - Comparative analysis with traditional CNNs and transformer-based models
+  - Fine-tuning for downstream tasks with minimal data
+  - [Colab Notebook: ConvNeXt v2 Implementation](https://colab.research.google.com/drive/1k62C8tCp21yKgEk5P4Lb_1fBLRUQzGu8?usp=sharing)
+
 
 #### 🏥 Medical Imaging Applications
 
@@ -128,6 +144,13 @@ Implement and evaluate various state-of-the-art models across multiple datasets.
 - CIFAR-10 with EfficientNet and BiT
   - [Colab Notebook: CIFAR-10 Classification](https://colab.research.google.com/drive/1MxkO72GwnIGEtM9x7OrMnwjayIe6uBuT?usp=sharing)
 
+
+### 📚 Advanced Architecture Resources
+
+- [MLP-Mixer Paper: "MLP-Mixer: An all-MLP Architecture for Vision"](https://arxiv.org/abs/2105.01601)
+- [ConvNeXt v2 Paper: "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders"](https://arxiv.org/abs/2301.00808)  
+- [Keras MLP-Mixer Tutorial](https://keras.io/examples/vision/mlp_image_classification/)
+- [ConvNeXt v2 GitHub Repository](https://github.com/facebookresearch/ConvNeXt-V2)
 ---
 
 ## 📝 Conclusion
