@@ -33,7 +33,7 @@ This assignment contains two fully annotated and modular notebooks:
   - Role assignment
   - Tool integration
   - Task distribution among specialized agents
-  - [Google Colab](https://colab.research.google.com/drive/1OCQe-43pos_KAJRO3r1paoKEeugMaK_R?usp=sharing)
+  - [Google Colab](https://colab.research.google.com/drive/1X4wzOyZScJjuRYmR96w7cc-L249Q5dzu?usp=sharing)
 
 Each Colab includes markdown explanations, execution logs, visualizations, and where applicable, LangSmith trace IDs.
 
@@ -70,7 +70,7 @@ Each Colab includes markdown explanations, execution logs, visualizations, and w
 
 ## 🎥 Walkthrough Video
 
-🎬 [Watch Assignment 7 Demo Walkthrough](https://youtu.be/YOUR_YOUTUBE_VIDEO_LINK)
+🎬 [Watch Assignment 7 Demo Walkthrough](https://youtu.be/G6V7NjmRmLw)
 
 - Full Colab walkthrough
 - Debugging via LangSmith Studio
