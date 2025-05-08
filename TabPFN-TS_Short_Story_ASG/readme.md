@@ -5,6 +5,8 @@ This Assignment is part of the **Short Story Assignment** for [Course Name]. It 
  **"The Tabular Foundation Model TabPFN Outperforms Specialized Time Series Forecasting Models Based on Simple Features"**  
  *Hoo, S. B., Müller, S., Salinas, D., & Hutter, F. (2025). arXiv:2501.02945*
 https://arxiv.org/pdf/2501.02945
+
+![TabPFN-TS Main Concept](./Images/tabpfn_main.png)
 ---
 
 ## 📄 Project Summary
