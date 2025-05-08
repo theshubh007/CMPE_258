@@ -31,7 +31,7 @@ This project explores **TabPFN-TS**, a novel time-series forecasting approach th
 |---------|-------------|------|
 | 📖 **Medium Article** | Full original article, published | [View on Medium](https://medium.com/@ShubhamKothiya/tabpfn-ts-how-a-tabular-foundation-model-outperforms-specialized-time-series-forecasting-models-e06533e059f5) |
 | 📊 **Slide Deck** | 12–15 slide summary of the paper (PDF or PPT) | [View on SlideShare](https://www.slideshare.net/slideshow/tabpfn-ts-outperforming-specialized-time-series-models/278856313)  |
-| 🎥 **Video Presentation** | 15–25 min walkthrough using the slide deck | [Watch on YouTube](https://www.youtube.com/watch?v=your-video-id) or [Download MP4](./video/TabPFN_TS_Review.mp4) |
+| 🎥 **Video Presentation** | 15–25 min walkthrough using the slide deck | [Watch on YouTube](https://youtu.be/4XRfq8hY9DU) |
 
 ---
 
