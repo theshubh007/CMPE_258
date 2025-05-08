@@ -6,7 +6,7 @@ This Assignment is part of the **Short Story Assignment** for [Course Name]. It 
  *Hoo, S. B., Müller, S., Salinas, D., & Hutter, F. (2025). arXiv:2501.02945*
 https://arxiv.org/pdf/2501.02945
 
-![TabPFN-TS Main Concept](./Images/tabpfn_main.png)
+![TabPFN-TS Main Concept](https://github.com/theshubh007/CMPE_258/blob/main/TabPFN-TS_Short_Story_ASG/Images/tabpfn-ts-method-overview.png)
 ---
 
 ## 📄 Project Summary
