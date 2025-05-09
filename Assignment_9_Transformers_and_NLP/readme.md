@@ -19,7 +19,7 @@ The goal of this assignment is to demonstrate practical implementations of key t
 ---
 ## Walkthrough Video
 
-[🎥 Watch Assignment 9 Demo Walkthrough](https://youtu.be/YOUR_YOUTUBE_VIDEO_LINK)
+[🎥 Watch Assignment 9 Demo Walkthrough](https://youtu.be/eIKQMEC_8Cg)
 
 - Full Colab walkthrough
 - Debugging traces and visualizations
