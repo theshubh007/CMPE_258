@@ -40,7 +40,7 @@ The notebook (`Optional_Catchup_ASG_Quiz_Multi_Model_Language.ipynb`) implements
 
 ## Video Walkthrough
 
-**[Watch Project Demonstration](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)**
+**[Watch Youtube Project Demonstration](https://youtu.be/zPx3hi5XnV0)**
 
 The video provides:
 - Step-by-step code explanation
